@@ -72,6 +72,6 @@ let allWagesFor = function(employee){
   return totalWage
 }
 
-let calculatePayroll = function(employee){
-  
+let calculatePayroll = function(arrayOfEmployees){
+
 }
