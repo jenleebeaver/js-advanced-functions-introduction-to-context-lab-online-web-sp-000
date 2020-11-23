@@ -65,6 +65,8 @@ let allWagesFor = function(employee){
     return e.date
   })
 
-  let totalWage = workDays.reduce()
+  let totalWage = workDays.reduce(function(memo, d){
+    
+  })
   return totalWage
 }
