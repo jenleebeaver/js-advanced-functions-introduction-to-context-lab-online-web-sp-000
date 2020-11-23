@@ -55,5 +55,5 @@ let hoursWorkedOnDate = function(employee, soughtDate) {
 }
 
 let wagesEarnedOnDate = function(employee, dateSought){
-  hoursWorkedOnDate * rate
+  let rawWage = hoursWorkedOnDate(employee, dateSought) * employee.payPerHour
 }
