@@ -58,4 +58,4 @@ let wagesEarnedOnDate = function(employee, dateSought){
   let rawWage = hoursWorkedOnDate(employee, dateSought) * employee.payPerHour
   return parseFloat(rawWage)
 }
-//note that parseFloat() parses a string and returns a floating point number
+//note that parseFloat() parses a value: will convert into a string and return a floating point number
