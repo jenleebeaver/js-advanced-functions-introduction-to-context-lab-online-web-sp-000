@@ -80,5 +80,5 @@ let calculatePayroll = function(arrayOfEmployees){
 //note: difference between map and reduce: map iterates over and can manipulate vc reduce adds it all together for some kind of total
 
 let findEmployeeByFirstName = function(srcArray, firstName){
-  return
+  return srcArray.find()
 }
