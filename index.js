@@ -62,7 +62,7 @@ let wagesEarnedOnDate = function(employee, dateSought){
 
 let allWagesFor = function(employee){
   let workDays = employee.timeInEvents.map(function(e){
-    
+    return e.date
   })
   return totalWage
 }
