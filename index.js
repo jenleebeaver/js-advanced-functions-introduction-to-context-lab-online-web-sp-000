@@ -64,5 +64,7 @@ let allWagesFor = function(employee){
   let workDays = employee.timeInEvents.map(function(e){
     return e.date
   })
+
+  let totalWage = workDays
   return totalWage
 }
