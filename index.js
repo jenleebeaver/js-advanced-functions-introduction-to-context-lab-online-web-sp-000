@@ -53,3 +53,7 @@ let hoursWorkedOnDate = function(employee, soughtDate) {
 
   return (clockOut.hour - clockIn.hour) / 100
 }
+
+let wagesEarnedOnDate = function(){
+  
+}
