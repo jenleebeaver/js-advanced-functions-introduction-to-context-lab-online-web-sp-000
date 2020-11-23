@@ -74,7 +74,7 @@ let allWagesFor = function(employee){
 
 let calculatePayroll = function(arrayOfEmployees){
   return arrayOfEmployees.reduce(function(memo, z){
-    
+    return memo + allWagesFor(z)
   })
 }
 //note: difference between map and reduce: map iterates over and can manipulate vc reduce adds it all together for some kind of total
