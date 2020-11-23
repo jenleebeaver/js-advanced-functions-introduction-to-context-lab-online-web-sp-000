@@ -59,3 +59,7 @@ let wagesEarnedOnDate = function(employee, dateSought){
   return parseFloat(rawWage)
 }
 //note that parseFloat() parses a value: will convert into a string and return a floating point number
+
+let allWagesFor = function(employee, rawWage){
+  
+}
