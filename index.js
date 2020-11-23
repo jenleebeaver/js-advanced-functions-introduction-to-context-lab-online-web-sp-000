@@ -61,5 +61,6 @@ let wagesEarnedOnDate = function(employee, dateSought){
 //note that parseFloat() parses a value: will convert into a string and return a floating point number
 
 let allWagesFor = function(employee, rawWage){
-  
+  let totalWage = wagesEarnedOnDate.map(employee)
+  return totalWage
 }
