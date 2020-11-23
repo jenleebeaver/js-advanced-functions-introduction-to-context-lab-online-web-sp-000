@@ -54,6 +54,6 @@ let hoursWorkedOnDate = function(employee, soughtDate) {
   return (clockOut.hour - clockIn.hour) / 100
 }
 
-let wagesEarnedOnDate = function(){
+let wagesEarnedOnDate = function(employee, dateSought){
   hoursWorkedOnDate * rate
 }
